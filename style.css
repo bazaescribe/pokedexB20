@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px;
+    background: rgba(0, 0, 0, 0.80);
+    height: 60px;
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.navbar img{
+    height: 100%;
+}
+
+.navbar input[type="text"]{
+    padding: 12px;
+    border: 0px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.container{
+    display: flex;
+    background: #6b7077;
+    min-height: 100%;
+	max-width: 100%;
+    padding-top: 80px;
+    padding-bottom 20px;
+	overflow: hidden;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pokemon{
+  min-width: 250px;
+  height: 350px;
+  box-shadow: 0px 4px 16px -4px rgba(0, 0, 0, 0.5);
+  margin: 16px;
+  padding: 18px;
+  background: white;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
+
+.details{
+    display: flex;
+    align-items: center;
+}
+
+.id{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-right: 8px;
+}
+
+.pokemon img{
+  width: 100%;
+}
+
+.type{
+    padding: 8px;
+    margin: 4px;
+    border-radius: 10px;
+    color: white;
+}
+
+.type-normal{
+    background: olive;
+}
+
+.type-fighting{
+    background: darkred;
+}
+
+.type-flying{
+    background: purple;
+}
+
+.type-poison{
+    background: MediumSpringGreen ;
+}
+
+.type-ground{
+    background: Khaki;
+}
+
+.type-rock{
+    background: GoldenRod;
+}
+
+.type-bug{
+    background: MediumSeaGreen;
+}
+
+.type-ghost{
+    background: MediumSlateBlue;
+}
+
+.type-steel{
+    background: grey;
+}
+
+.type-fire{
+    background: red;
+}
+
+.type-water{
+    background: darkturquoise;
+}
+
+.type-grass{
+    background: green;
+}
+
+.type-electric{
+    background: orange;
+}
+
+.type-psychic{
+    background: violet;
+}
+
+.type-ice{
+    background: LightSkyBlue;
+}
+
+.type-dragon{
+    background: RebeccaPurple;
+}
+
+.type-dark{
+    background: SlateGray;
+}
+
+.type-fairy{
+    background: pink;
+}

@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="pokemon.json"></script>
+        <script type="text/javascript" src="action.js"></script>
+    </head>
+    <body onload="showPokemon()">
+        <div class="navbar">
+            <img src="img/logo.png" alt="">
+            <input type="text" id="query" onkeyup="searchPokemon()">
+        </div>
+        <div class="container" id="result"></div>
+    </body>
+</html>
